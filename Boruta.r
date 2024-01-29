@@ -14,7 +14,7 @@ varnames <- c("age", "age_sq", "educ", "educ_sq", "married", "nodegree", "black"
 varnames <- names(a1)[c(2:9,11:17)]
 
 library(foreign)
-lalonde<-read.dta("https://github.com/democratizing-data-science/feature_selection/blob/main/lalonde.dta")
+lalonde<-read.dta("https://github.com/democratizing-data-science/feature_selection/raw/main/lalonde.dta")
 
 # Implement the algorithm 
 # Unless a seed is set, results may vary slightly but these variation do not affect the
